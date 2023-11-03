@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Add Data</title>
+</head>
+<body>
+	<div id="success_msg"></div>
+	<form action="/submit" method="post">
+		<div>
+			<label>Name</label>
+			<input type="text" name="name" >
+		</div>
+		<div>
+			<label>Designation</label>
+			<input type="text" name="desg">
+		</div>
+		<div>
+			<label>Mobile</label>
+			<input type="number" name="mobile">
+		</div>
+		<div>
+			<input type="submit" value="Add">
+		</div>
+	</form>
+
+
+	<!-- <div>
+		<table>
+			<tr>
+				<th>s.no</th>
+				<th>Name</th>
+				<th>Designation</th>
+				<th>Mobile</th>
+			</tr>
+		</table>
+	</div> -->
+
+	<script>
+		
+		import axios from 'axios';
+
+		console.log(axios);
+
+	</script>
+
+</body>
+</html>
